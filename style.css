@@ -1,0 +1,42 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label, input, select {
+    margin: 10px;
+}
+input, select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 300px;
+    font-size: 16px;
+}
+h1 {
+    text-align: center;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+#error-message {
+    color: white;
+    background: red;
+    margin-top: 10px;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+  }
+  
+  #success-message {
+    color: white;
+    background: green;
+    margin-top: 10px;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+  }
